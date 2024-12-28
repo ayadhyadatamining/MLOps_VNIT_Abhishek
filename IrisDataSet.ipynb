@@ -11,7 +11,7 @@ iris = datasets.load_iris()
 X = iris.data  # Features
 y = iris.target  # Target variable (species)
 
-# Split the data into training and testing sets (80% train, 20% test)
+# Split the data into training and testing sets (70% train, 30% test)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # Create an SVM classifier with a linear kernel
